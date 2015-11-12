@@ -108,6 +108,67 @@ div + hr + hr + hr + hr[triplebond]::before{
     width:100%;        
 }
 
+hr[partialtriplebond]{
+    border-top: 2px black solid;
+    border-bottom: 2px black dotted;
+    padding-bottom:0px !important;
+    padding-top:3px !important;
+    line-height: 0px;
+    height:2px !important;
+    
+}
+
+
+div + hr[partialtriplebond]::before{
+    content: '_________';
+    border-bottom: 2px !important;
+    position:absolute;
+    font-weight:900;
+    font-size:22px;
+    margin-left:-3px;
+    top:-14.5px;
+    bottom:20px;
+    width:100%;
+        
+}
+
+div + hr + hr[partialtriplebond]::before{
+    content: '______';
+    border-bottom: 2px !important;
+    position:absolute;
+    font-weight:900;
+    font-size:23.5px;
+    margin-left:-3px;
+    top:-14.5px;
+    bottom:20px;
+    width:100%;
+        
+}
+
+div + hr + hr + hr[partialtriplebond]::before{
+    content: '_________';
+    border-bottom: 2px !important;
+    position:absolute;
+    font-weight:900;
+    font-size:22px;
+    margin-left:-3px;
+    top:-14.5px;
+    bottom:20px;
+    width:100%;        
+}
+
+div + hr + hr + hr + hr[partialtriplebond]::before{
+    content: '_____';
+    border-bottom: 2px !important;
+    position:absolute;
+    font-weight:900;
+    font-size:21px;
+    margin-left:-3px;
+    top:-14.5px;
+    bottom:20px;
+    width:100%;        
+}
+
 
 
 
@@ -159,7 +220,7 @@ hr[singlebond]{
     border-top: 2px black solid;
 }
 
-hr[partialbond]{
+hr[partialsinglebond]{
     border-top: 2px black dotted;
 }
 
