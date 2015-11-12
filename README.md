@@ -11,10 +11,10 @@ Chemistry CSS is a Work in Progress library that lets you currently construct ch
 
 ###A quick table of contents:
 
-1) Setting Up 
-2) Adding Elements 
-3) Adding Bonds
-4) Types of Bonds
+1) Setting Up <br>
+2) Adding Elements <br>
+3) Adding Bonds<br>
+4) Types of Bonds<br>
 
 ##Setting Up
 To use the board, first declare you are creating an equation by using the ```chembox``` attribute. 
