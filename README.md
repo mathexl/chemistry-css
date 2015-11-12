@@ -45,7 +45,7 @@ The first ```<hr>``` tag is the top-right hand corner bond.  The second is the r
 <div chempart box4_2>C</div>
     <hr singlebond> <!-- Top Right Bond -->
     <hr> <!-- null bond-->
-    <hr <!-- null bond-->
+    <hr> <!-- null bond-->
     <hr singlebond> <!-- Bottom Bond-->
 ```
 
