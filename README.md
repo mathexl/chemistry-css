@@ -39,7 +39,7 @@ Within the div, include the letter name of the element in the grid.  Format expl
 ```
 
 ##Adding Bonds
-Part of the goal of Chemistry-CSS was to keep the HTML minimal the readable.  Therefore, it uses the ```<hr>``` tag as a way of delineating bonds to other elements.  You can only declare bonds pointing right; this is to keep the code clean (therefore, all bonds have to be declared from their left element).  
+Part of the goal of Chemistry-CSS was to keep the HTML minimal and readable.  Therefore, it uses the ```<hr>``` tag as a way of delineating bonds to other elements.  You can only declare bonds pointing right; this is to keep the code clean (therefore, all bonds have to be declared from their left element).  
 The first ```<hr>``` tag is the top-right hand corner bond.  The second is the right bond, then the right-bottom bond, and then the bottom bond.  Commented HTML below of a carbon with two bonds facing right: 
 
 ```HTML
