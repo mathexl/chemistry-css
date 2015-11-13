@@ -26,7 +26,7 @@ To use the board, first declare you are creating an equation by using the ```che
 ```
 
 ##Adding Elements
-Within the Chembox, declare elements using the ```chempart``` attribute.  You also need to add a location attribute, modeled by the format ```boxX_Y```.  For instance, the horizantal component 3 and vertical component 2 would be ```box3_2```.  The current grid works up to 10 on the X and 20 on the Y.  **You can modify the size of the grid by rerendering extra boxes using the Python script in rerenderer/render.py and linking the created box.css file.**  Further, chembox utilizes the ```zoom``` attribute making resizing easy.  Since the boxes are absolute, you can resize the chembox div without interfering with the actual components within. 
+Within the Chembox, declare elements using the ```chempart``` attribute.  You also need to add a location attribute, modeled by the format ```boxX_Y```.  For instance, the horizantal component 3 and vertical component 2 would be ```box3_2```.  The current grid works up to 10 on the X and 20 on the Y.  **You can modify the size of the grid by rerendering extra boxes using the Python script (```Python3 rerenderer/render.py```) in rerenderer/render.py and linking the created ```rerenderer/box.css``` file.**  Further, chembox utilizes the ```zoom``` attribute making resizing easy.  Since the boxes are absolute, you can resize the chembox div without interfering with the actual components within. 
 
 Within the div, include the letter name of the element in the grid.  Format explained below: 
 
