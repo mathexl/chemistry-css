@@ -6,7 +6,7 @@ A chemistry CSS library for creating Chemical Structures and Equations with just
 Chemistry CSS is a library that lets you currently construct chemical diagrams with easy HTML.    Support soon to be added for: 
 
 * Equations, including multi-line equations
-* 3D bond structure 
+* 3D bond structure (notation for specifying direction of bonds)
 
 ###A quick table of contents:
 
