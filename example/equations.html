@@ -14,7 +14,10 @@ div[chembox]{
   width:100%;
   clear:both;
   height:400px;
-}
+  -moz-transform: scale(0.9, 0.9); /* Moz-browsers */
+  zoom: 0.9; /* Other non-webkit browsers */
+  zoom: 90%; /* Webkit browsers */}
+
 </style>
 
 </html>
@@ -143,7 +146,7 @@ div[chembox]{
 
     <h1>Cyanide, CN</h1>
     <div chembox>
-    <div chempart box5_1>C<super>-</super></div>
+    <div chempart box5_1>C<sup>-</sup></div>
     <hr>
     <hr triplebond>
     <hr>
@@ -153,7 +156,7 @@ div[chembox]{
 
     <h1>Phosphite, PO<sub>3</sub></h1>
     <div chembox>
-    <div chempart box4_1>O<super>-</super></div>
+    <div chempart box4_1>O<sup>-</sup></div>
     <hr>
     <hr>
     <hr singlebond>
@@ -162,8 +165,8 @@ div[chembox]{
     <hr>
     <hr>
     <hr singlebond>
-    <div chempart box6_1>O<super>-</super></div>
-    <div chempart box5_3>O<super>-</super></div>
+    <div chempart box6_1>O<sup>-</sup></div>
+    <div chempart box5_3>O<sup>-</sup></div>
 
     </div>
 

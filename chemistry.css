@@ -7,6 +7,9 @@ body{
    /* border: 1px #ddd solid; */
 }
 
+div[chembox] sup { vertical-align: top; font-size: 0.7em; }
+
+
 div[chembox]{
     height: auto;
     width:80%;
@@ -57,7 +60,7 @@ hr[triplebond]{
     padding-top:3px !important;
     line-height: 0px;
     height:2px !important;
-    
+
 }
 
 
@@ -71,7 +74,7 @@ div + hr[triplebond]::before{
     top:-14.5px;
     bottom:20px;
     width:100%;
-        
+
 }
 
 div + hr + hr[triplebond]::before{
@@ -84,7 +87,7 @@ div + hr + hr[triplebond]::before{
     top:-14.5px;
     bottom:20px;
     width:100%;
-        
+
 }
 
 div + hr + hr + hr[triplebond]::before{
@@ -96,7 +99,7 @@ div + hr + hr + hr[triplebond]::before{
     margin-left:-3px;
     top:-14.5px;
     bottom:20px;
-    width:100%;        
+    width:100%;
 }
 
 div + hr + hr + hr + hr[triplebond]::before{
@@ -108,7 +111,7 @@ div + hr + hr + hr + hr[triplebond]::before{
     margin-left:-3px;
     top:-14.5px;
     bottom:20px;
-    width:100%;        
+    width:100%;
 }
 
 hr[partialtriplebond]{
@@ -118,7 +121,7 @@ hr[partialtriplebond]{
     padding-top:3px !important;
     line-height: 0px;
     height:2px !important;
-    
+
 }
 
 
@@ -132,7 +135,7 @@ div + hr[partialtriplebond]::before{
     top:-14.5px;
     bottom:20px;
     width:100%;
-        
+
 }
 
 div + hr + hr[partialtriplebond]::before{
@@ -145,7 +148,7 @@ div + hr + hr[partialtriplebond]::before{
     top:-14.5px;
     bottom:20px;
     width:100%;
-        
+
 }
 
 div + hr + hr + hr[partialtriplebond]::before{
@@ -157,7 +160,7 @@ div + hr + hr + hr[partialtriplebond]::before{
     margin-left:-3px;
     top:-14.5px;
     bottom:20px;
-    width:100%;        
+    width:100%;
 }
 
 div + hr + hr + hr + hr[partialtriplebond]::before{
@@ -169,7 +172,7 @@ div + hr + hr + hr + hr[partialtriplebond]::before{
     margin-left:-3px;
     top:-14.5px;
     bottom:20px;
-    width:100%;        
+    width:100%;
 }
 
 
