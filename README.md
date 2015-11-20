@@ -1,4 +1,4 @@
-# chemistry-css
+# ChemistryCSS
 A chemistry CSS library for creating Chemical Structures and Equations with just HTML.  Similar project to: https://github.com/mathexl/math-css
 
 ![Render Example](/example/render2.png)
